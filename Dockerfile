@@ -7,6 +7,6 @@ COPY .eleventy.js .
 COPY package.json .
 RUN npm install
 RUN npx @11ty/eleventy
-CMD ["eleventy","--serve","--port=8080"]
+CMD ["eleventy","--serve","--port=$PORT"]
 EXPOSE 8080
 EXPOSE 3001

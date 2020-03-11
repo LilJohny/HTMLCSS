@@ -7,5 +7,5 @@ COPY .eleventy.js .
 COPY package.json .
 RUN npm install
 RUN npx @11ty/eleventy
-CMD eleventy --serve --port= $PORT
+CMD npx eleventy --serve --port= $PORT
 EXPOSE $PORT

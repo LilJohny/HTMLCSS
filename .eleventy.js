@@ -1,4 +1,8 @@
 module.exports = {
-  htmlTemplateEngine: "njk",
-  templateFormats: "html"
+    dir: {
+        input: "html",
+        output: "dist"
+    },
+    templateFormats: ["html", "css"],
+    passthroughFileCopy: true
 };

@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: npx eleventy --serve --port=$PORT\
+  web: npx eleventy --serve --port=$PORT

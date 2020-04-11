@@ -9,7 +9,7 @@
   background-color: #111;
   overflow-x: hidden;
   padding-top: 60px;
-  opacity: 0.85;
+  opacity: 1;
 }
 
 .side-nav a {
@@ -37,20 +37,66 @@
   }
 }
 /*Background image styles*/
-img.bg {
+.bg {
   min-height: 100%;
   min-width: 1024px;
   width: 100%;
   height: auto;
   position: fixed;
   filter: blur(6px);
+  -webkit-filter: blur(6px);
   top: 0;
   left: 0;
+  transform:scale(1.015)
 }
 
+
 @media screen and (max-width: 1024px) {
-  img.bg {
+  .bg {
     left: 50%;
     margin-left: -512px; /* 50% */
   }
+}
+
+/* Box style */
+.box {
+  position: relative;
+  width: 500px;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),
+    inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.box:before,
+.box:after {
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  content: " ";
+  left: 12px;
+  bottom: 12px;
+  background: transparent;
+  -webkit-transform: skew(-5deg) rotate(-5deg);
+  -moz-transform: skew(-5deg) rotate(-5deg);
+  -ms-transform: skew(-5deg) rotate(-5deg);
+  -o-transform: skew(-5deg) rotate(-5deg);
+  transform: skew(-5deg) rotate(-5deg);
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.box:after {
+  left: auto;
+  right: 12px;
+  -webkit-transform: skew(5deg) rotate(5deg);
+  -moz-transform: skew(5deg) rotate(5deg);
+  -ms-transform: skew(5deg) rotate(5deg);
+  -o-transform: skew(5deg) rotate(5deg);
+  transform: skew(5deg) rotate(5deg);
 }

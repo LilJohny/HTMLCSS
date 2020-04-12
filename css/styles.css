@@ -54,7 +54,7 @@
 /* Box styles */
 .box {
   position: relative;
-  width: 500px;
+  width: 800px;
   height: fit-content;
   padding: 40px;
   margin: 0 auto;
@@ -94,6 +94,74 @@
   -o-transform: skew(5deg) rotate(5deg);
   transform: skew(5deg) rotate(5deg);
 }
-.text{
-  font-family: 'Comic Neue', cursive;
+
+.left-side-box {
+  background-color: #333;
+  color: #fff;
+  margin-top: 3%;
+  width: 150px;
+  text-align: center;
+  height: fit-content;
+  float: left;
+  border: 1px solid white;
+  margin-left: 3%;
+}
+.right-side-box {
+  background-color: #333;
+  color: #fff;
+  margin-top: 10%;
+  width: 300px;
+  text-align: center;
+  height: fit-content;
+  float: right;
+  border: 1px solid white;
+  margin-right: 3%;
+}
+.right-side-box-header{
+  margin-left: 30px;
+}
+.introduction-text {
+  font-size: 20px;
+  font-family: "Comic Neue", cursive;
+}
+.plain-text {
+  font-size: 20px;
+}
+.content {
+  margin-top: 10%;
+}
+.side-box-header {
+  margin-top: 0;
+  color: #ddd;
+  margin-left: 20px;
+}
+
+/* Sidebar list style */
+.img-list ul {
+  margin: 0px;
+  align-self: center;
+}
+.img-list li {
+  font-size: 14px;
+  margin-left: 0px;
+  padding: 0px;
+  list-style: url(../img/arrow.png);
+  line-height: 30px;
+}
+.img-list li a:link,
+.img-list li a:visited {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.img-list li a:hover {
+  color: #0a7caf;
+  padding: 2px;
+  -moz-box-shadow: 0px 0px 12px #9e9ea3;
+  -webkit-box-shadow: 0px 0px 12px #9e9ea3;
+  box-shadow: 0px 0px 12px #9e9ea3;
+
+  border: none 0px #000000;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }

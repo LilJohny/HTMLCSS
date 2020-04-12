@@ -55,7 +55,8 @@
 .box {
   position: relative;
   width: 500px;
-  padding: 50px;
+  height: fit-content;
+  padding: 40px;
   margin: 0 auto;
   background-color: #fff;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),
@@ -92,4 +93,7 @@
   -ms-transform: skew(5deg) rotate(5deg);
   -o-transform: skew(5deg) rotate(5deg);
   transform: skew(5deg) rotate(5deg);
+}
+.text{
+  font-family: 'Comic Neue', cursive;
 }

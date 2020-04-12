@@ -1,12 +1,14 @@
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('img');
+
     return {
         dir: {
             input: "html",
-            output: "dist"
+            output: "dist",
         },
-        templateFormats: ["html", "css"],
-        passthroughFileCopy: true
+        templateFormats: ["html","njk","css"],
+        passthroughFileCopy: true,
+        templateEngineOverride: "njk"
     };
 };

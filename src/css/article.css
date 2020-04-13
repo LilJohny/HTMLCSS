@@ -2,6 +2,7 @@ article > * {
   min-width: 0;
   margin-left: 0;
   margin-right: 0;
+  grid-column: 4;
 }
 
 article > h1 {
@@ -18,7 +19,6 @@ article > p {
   --x-height-multiplier: 0.375;
   --baseline-multiplier: 0.17;
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  letter-spacing: 0.01rem;
   font-weight: 400;
   font-style: normal;
   font-size: 21px;
@@ -68,9 +68,6 @@ article {
   grid-template-columns: 1fr 1fr 10px 440px 10px 1fr 1fr;
 }
 
-article > * {
-  grid-column: 4;
-}
 
 article > figure {
   grid-column: 1/-1;
@@ -83,7 +80,7 @@ article > .aside {
 
 article > blockquote {
   grid-column: 3 / span 3;
-  margin: 0px 0;
+  margin: 0px 0px;
   color: #666;
   border-left: 3px solid black;
   padding-left: 10px;

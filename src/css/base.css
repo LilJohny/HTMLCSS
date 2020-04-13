@@ -50,6 +50,7 @@
   top: 0;
   left: 0;
   transform: scale(1.015);
+  z-index: -1;
 }
 .content {
   margin-top: 10%;

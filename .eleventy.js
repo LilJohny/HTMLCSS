@@ -9,19 +9,25 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.setDataDeepMerge(true);
 
-    eleventyConfig.addLayoutAlias("base", "layouts/base.njk")
+    eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
 
+    eleventyConfig.addCollection('articles', collection => {
+        return collection.getFilteredByGlob('src/articles/*.md');
+    });
+    eleventyConfig.addCollection('lists', collection => {
+        return collection.getFilteredByGlob('src/lists/*.md');
+    });
     return {
         dir: {
-            input: "src",
+            input: "src/",
             output: "dist",
             includes: "_includes",
-            data:"_data"
+            data: "_data"
         },
         markdownTemplateEngine: "liquid",
         htmlTemplateEngine: "njk",
         dataTemplateEngine: "njk",
-        templateFormats: ["html", "njk", "css"],
+        templateFormats: ["html", "njk", "md"],
         passthroughFileCopy: true,
         templateEngineOverride: "njk"
     };

@@ -1,0 +1,25 @@
+---
+base_styles_path: ../css/base.css
+background_path: ../img/background.jpg
+eleventyNavigation:
+parent: Home
+ket: list
+---
+{% extends 'layouts/base.njk' %}
+{% block head %}
+<link rel="stylesheet" href="../css/article.css">
+<link rel="stylesheet" href="../css/list.css">
+<link rel="stylesheet" href="../css/box.css">
+{% endblock %}
+{% block content %}
+<div class="box">
+    <h1>{{ Name }} articles list</h1>
+    <ul>
+        <li>Viverra rutrum orci lacinia iaculis mi per fermentum tortor malesuada</li>
+        <li>Id aliquam nisi accumsan felis pretium enim arcu fames</li>
+        <li>Eros mollis sociosqu condimentum lectus cursus pellentesque et laoreet</li>
+        <li>Rhoncus donec vulputate malesuada euismod nunc conubia netus, ante eros</li>
+        <li>Sodales ante duis semper nisi malesuada senectus, sed magna odio at egestas</li>
+    </ul>
+</div>
+{% endblock %}

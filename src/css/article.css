@@ -58,36 +58,36 @@ figure figcaption {
   font-size: 0.8em;
 }
 
-article{
-    display: grid;
-    grid-template-columns: 1fr 1fr 10px 440px 10px 1fr 1fr;
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 10px 440px 10px 1fr 1fr;
 }
 
 article > * {
-    grid-column: 4;
+  grid-column: 4;
 }
 
-article > figure{
-    grid-column: 1/-1;
-    margin: 20px 0;
+article > figure {
+  grid-column: 1/-1;
+  margin: 20px 0;
 }
 
-article > .aside{
-    grid-column: 5/-1;
+article > .aside {
+  grid-column: 5/-1;
 }
 
-article > blockquote{
-    grid-column: 3/ span 2;
-    margin: 0px 0;
-    color: #666;
-    border-left: 3px solid black;
-    padding-left: 10px;
+article > blockquote {
+  grid-column: 3 / span 2;
+  margin: 0px 0;
+  color: #666;
+  border-left: 3px solid black;
+  padding-left: 10px;
 }
 /* General styles */
 
-html, body {
-    margin: 0;
-    padding: 0;
-    line-height: 1.4;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
 }
-

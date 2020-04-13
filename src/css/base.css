@@ -50,3 +50,6 @@
   left: 0;
   transform: scale(1.015);
 }
+.content {
+  margin-top: 10%;
+}

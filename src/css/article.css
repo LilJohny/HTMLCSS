@@ -1,11 +1,19 @@
 article > * {
   min-width: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 article > h1 {
   font-family: "Lucida Grande";
+  grid-column: 3 / span 3;
+  text-align: center;
 }
-
+article > h2 {
+  font-family: "Lucida Grande";
+  grid-column: 3 / span 3;
+  text-align: center;
+}
 article > p {
   --x-height-multiplier: 0.375;
   --baseline-multiplier: 0.17;
@@ -19,13 +27,10 @@ article > p {
   color: rgba(0, 0, 0, 0.84);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  grid-column: 2 / span 5;
+  text-align: left;
 }
-article > .aside {
-  font-family: "Lucida Grande";
-  margin: 30px 20px;
-  color: #666;
-  font-size: 0.8em;
-}
+
 img {
   width: 100%;
 }
@@ -77,7 +82,7 @@ article > .aside {
 }
 
 article > blockquote {
-  grid-column: 3 / span 2;
+  grid-column: 3 / span 3;
   margin: 0px 0;
   color: #666;
   border-left: 3px solid black;

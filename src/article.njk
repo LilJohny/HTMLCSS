@@ -54,10 +54,10 @@ background_path: ../img/background.jpg
             <div class="CodeRay">
                 <div class="code">
                     <pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#606"><span style="color:#404">&quot;</span><span>dependencies</span><span style="color:#404">&quot;</span></span>: {
-        <span class="line-numbers"><a href="#n2" name="n2">2</a></span>  <span style="color:#606"><span style="color:#404">&quot;</span><span>react</span><span style="color:#404">&quot;</span></span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">^16.0.0</span><span style="color:#710">&quot;</span></span>,
-        <span class="line-numbers"><a href="#n3" name="n3">3</a></span>  <span style="color:#606"><span style="color:#404">&quot;</span><span>react-rom</span><span style="color:#404">&quot;</span></span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">^16.0.0</span><span style="color:#710">&quot;</span></span>
-        <span class="line-numbers"><a href="#n4" name="n4">4</a></span>}
-        </pre>
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>  <span style="color:#606"><span style="color:#404">&quot;</span><span>react</span><span style="color:#404">&quot;</span></span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">^16.0.0</span><span style="color:#710">&quot;</span></span>,
+<span class="line-numbers"><a href="#n3" name="n3">3</a></span>  <span style="color:#606"><span style="color:#404">&quot;</span><span>react-rom</span><span style="color:#404">&quot;</span></span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">^16.0.0</span><span style="color:#710">&quot;</span></span>
+<span class="line-numbers"><a href="#n4" name="n4">4</a></span>}
+</pre>
                 </div>
             </div>
         </div>
@@ -65,10 +65,10 @@ background_path: ../img/background.jpg
         <p>to a concrete description of what packages needs to be installed:</p>
 
         <pre><code>node_modules/react       react@16.0.0
-        node_modules/react-dom   react-dom@16.0.0
-        node_modules/fbjs        fbjs@0.8.16
-        ...
-        </code></pre>
+node_modules/react-dom   react-dom@16.0.0
+node_modules/fbjs        fbjs@0.8.16
+...
+</code></pre>
 
         <p><strong>Module loading</strong> is more involved and includes:</p>
 
@@ -150,8 +150,8 @@ background_path: ../img/background.jpg
             <div class="CodeRay">
                 <div class="code">
                     <pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">import</span> React from <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">react</span><span style="color:#710">'</span></span>;
-        <span class="line-numbers"><a href="#n2" name="n2">2</a></span><span style="color:#080;font-weight:bold">import</span> ReactDOM from <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">react-dom</span><span style="color:#710">'</span></span>;
-        </pre>
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span><span style="color:#080;font-weight:bold">import</span> ReactDOM from <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">react-dom</span><span style="color:#710">'</span></span>;
+</pre>
                 </div>
             </div>
         </div>
@@ -206,23 +206,23 @@ background_path: ../img/background.jpg
             <div class="CodeRay">
                 <div class="code">
                     <pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">var</span> fs = <span style="color:#080;font-weight:bold">new</span> FileSystem;
-        <span class="line-numbers"> <a href="#n2" name="n2">2</a></span>
-        <span class="line-numbers"> <a href="#n3" name="n3">3</a></span><span style="color:#777">// Set up file system:</span>
-        <span class="line-numbers"> <a href="#n4" name="n4">4</a></span><span style="color:#080;font-weight:bold">var</span> npm = <span style="color:#080;font-weight:bold">new</span> PackageSet;
-        <span class="line-numbers"> <a href="#n5" name="n5">5</a></span>fs.mount(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/node_modules/react/</span><span style="color:#710">&quot;</span></span>, npm.get(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react@16.0.0</span><span style="color:#710">&quot;</span></span>);
-        <span class="line-numbers"> <a href="#n6" name="n6">6</a></span>fs.mount(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/node_modules/react-dom/</span><span style="color:#710">&quot;</span></span>, npm.get(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react-dom@16.0.0</span><span style="color:#710">&quot;</span></span>);
-        <span class="line-numbers"> <a href="#n7" name="n7">7</a></span>
-        <span class="line-numbers"> <a href="#n8" name="n8">8</a></span><span style="color:#080;font-weight:bold">var</span> <span style="color:#080;font-weight:bold">static</span> = <span style="color:#080;font-weight:bold">new</span> StaticMount({<span style="color:#606"><span style="color:#404">&quot;</span><span>app.js</span><span style="color:#404">&quot;</span></span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">require('react')</span><span style="color:#710">&quot;</span></span>});
-        <span class="line-numbers"> <a href="#n9" name="n9">9</a></span>fs.mount(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/</span><span style="color:#710">&quot;</span></span>, <span style="color:#080;font-weight:bold">static</span>);
-        <span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>
-        <span class="line-numbers"><a href="#n11" name="n11">11</a></span><span style="color:#777">// Resolve paths relative to a directory:</span>
-        <span class="line-numbers"><a href="#n12" name="n12">12</a></span><span style="color:#080;font-weight:bold">var</span> path = await fs.resolve(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/</span><span style="color:#710">&quot;</span></span>)
-        <span class="line-numbers"><a href="#n13" name="n13">13</a></span>
-        <span class="line-numbers"><a href="#n14" name="n14">14</a></span><span style="color:#777">// result: /node_modules/react/index.js</span>
-        <span class="line-numbers"><a href="#n15" name="n15">15</a></span>
-        <span class="line-numbers"><a href="#n16" name="n16">16</a></span><span style="color:#777">// Fetch the body</span>
-        <span class="line-numbers"><a href="#n17" name="n17">17</a></span><span style="color:#080;font-weight:bold">var</span> body = await fs.fetch(path);
-        </pre>
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span><span style="color:#777">// Set up file system:</span>
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span><span style="color:#080;font-weight:bold">var</span> npm = <span style="color:#080;font-weight:bold">new</span> PackageSet;
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>fs.mount(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/node_modules/react/</span><span style="color:#710">&quot;</span></span>, npm.get(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react@16.0.0</span><span style="color:#710">&quot;</span></span>);
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>fs.mount(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/node_modules/react-dom/</span><span style="color:#710">&quot;</span></span>, npm.get(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react-dom@16.0.0</span><span style="color:#710">&quot;</span></span>);
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span><span style="color:#080;font-weight:bold">var</span> <span style="color:#080;font-weight:bold">static</span> = <span style="color:#080;font-weight:bold">new</span> StaticMount({<span style="color:#606"><span style="color:#404">&quot;</span><span>app.js</span><span style="color:#404">&quot;</span></span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">require('react')</span><span style="color:#710">&quot;</span></span>});
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>fs.mount(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/</span><span style="color:#710">&quot;</span></span>, <span style="color:#080;font-weight:bold">static</span>);
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>
+<span class="line-numbers"><a href="#n11" name="n11">11</a></span><span style="color:#777">// Resolve paths relative to a directory:</span>
+<span class="line-numbers"><a href="#n12" name="n12">12</a></span><span style="color:#080;font-weight:bold">var</span> path = await fs.resolve(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/</span><span style="color:#710">&quot;</span></span>)
+<span class="line-numbers"><a href="#n13" name="n13">13</a></span>
+<span class="line-numbers"><a href="#n14" name="n14">14</a></span><span style="color:#777">// result: /node_modules/react/index.js</span>
+<span class="line-numbers"><a href="#n15" name="n15">15</a></span>
+<span class="line-numbers"><a href="#n16" name="n16">16</a></span><span style="color:#777">// Fetch the body</span>
+<span class="line-numbers"><a href="#n17" name="n17">17</a></span><span style="color:#080;font-weight:bold">var</span> body = await fs.fetch(path);
+</pre>
                 </div>
             </div>
         </div>
@@ -234,18 +234,18 @@ background_path: ../img/background.jpg
             <div class="CodeRay">
                 <div class="code">
                     <pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#080;font-weight:bold">var</span> system = <span style="color:#080;font-weight:bold">new</span> ModuleSystem;
-        <span class="line-numbers"> <a href="#n2" name="n2">2</a></span>
-        <span class="line-numbers"> <a href="#n3" name="n3">3</a></span><span style="color:#777">// Define module</span>
-        <span class="line-numbers"> <a href="#n4" name="n4">4</a></span>system.define(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/app.js</span><span style="color:#710">&quot;</span></span>, <span style="color:#080;font-weight:bold">function</span>(require, module, exports) {
-        <span class="line-numbers"> <a href="#n5" name="n5">5</a></span>  <span style="color:#080;font-weight:bold">var</span> React = require(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react</span><span style="color:#710">&quot;</span></span>);
-        <span class="line-numbers"> <a href="#n6" name="n6">6</a></span>});
-        <span class="line-numbers"> <a href="#n7" name="n7">7</a></span>
-        <span class="line-numbers"> <a href="#n8" name="n8">8</a></span><span style="color:#777">// Register mappings</span>
-        <span class="line-numbers"> <a href="#n9" name="n9">9</a></span>system.registerResolve(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/node_modules/react/index.js</span><span style="color:#710">&quot;</span></span>);
-        <span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>
-        <span class="line-numbers"><a href="#n11" name="n11">11</a></span><span style="color:#777">// Execute module</span>
-        <span class="line-numbers"><a href="#n12" name="n12">12</a></span><span style="color:#080;font-weight:bold">var</span> result = system.moduleResult(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/app.js</span><span style="color:#710">&quot;</span></span>)
-        </pre>
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span><span style="color:#777">// Define module</span>
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>system.define(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/app.js</span><span style="color:#710">&quot;</span></span>, <span style="color:#080;font-weight:bold">function</span>(require, module, exports) {
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>  <span style="color:#080;font-weight:bold">var</span> React = require(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react</span><span style="color:#710">&quot;</span></span>);
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>});
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span><span style="color:#777">// Register mappings</span>
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>system.registerResolve(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">react</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/node_modules/react/index.js</span><span style="color:#710">&quot;</span></span>);
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>
+<span class="line-numbers"><a href="#n11" name="n11">11</a></span><span style="color:#777">// Execute module</span>
+<span class="line-numbers"><a href="#n12" name="n12">12</a></span><span style="color:#080;font-weight:bold">var</span> result = system.moduleResult(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/app.js</span><span style="color:#710">&quot;</span></span>)
+</pre>
                 </div>
             </div>
         </div>
@@ -293,7 +293,6 @@ background_path: ../img/background.jpg
             fraction of SystemJS, reinventing parts of it, and monkey-patching
             various functions. That’s not a criticism of SystemJS itself, but a sign
             that it hasn’t been designed for our use case.</p>
-
     </article>
 </div>
 

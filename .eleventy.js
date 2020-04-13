@@ -9,10 +9,11 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.setDataDeepMerge(true);
 
+    eleventyConfig.addLayoutAlias("base", "layouts/base.njk")
 
     return {
         dir: {
-            input: "html",
+            input: ".",
             output: "dist",
             includes:"_includes"
         },

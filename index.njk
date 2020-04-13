@@ -1,9 +1,10 @@
-{% extends 'html/base.njk' %}
+{% extends 'layouts/base.njk' %}
 {% block head %}
 <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap" rel="stylesheet">
 {% endblock %}
 {% block content %}
 <div class="content">
+    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
     <div class="box left-side-box">
         <h2 class="side-box-header">Good Start:</h2>
         <div class="img-list">

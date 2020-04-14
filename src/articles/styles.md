@@ -1,9 +1,9 @@
 ---
 layout: layouts/article.njk
-eleventyNavigation:
-key: styles
 title: Styles
-parent: Home
+eleventyNavigation:
+    key: styles
+    parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..

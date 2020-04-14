@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
 eleventyNavigation:
-key: html_paragraphs
-title: HTML paragraphs
-parent: Home
+  key: html_paragraphs
+  parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
 tags: html
+title: HTML paragraphs
 ---
 
 # HTML Paragraphs

@@ -112,4 +112,6 @@ article > blockquote {
   border-left: 3px solid black;
   padding-left: 10px;
 }
-/* General styles */
+pre{
+  grid-column: 2 / span 4;
+}

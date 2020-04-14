@@ -1,7 +1,8 @@
 ---
 layout: layouts/article.njk
 eleventyNavigation:
-key: html_elements
+key: html_attributes
+title: HTML attributes
 parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg

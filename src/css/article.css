@@ -80,19 +80,7 @@ img {
   color: #000;
   padding-right: 1em;
 }
-code {
-  background: #eee;
-  padding: 2px 5px;
-}
-pre {
-  background: #eee;
-  padding: 10px 15px;
-  overflow: auto;
-}
 
-pre > code {
-  padding: 0px;
-}
 
 figure {
   margin: 0px;

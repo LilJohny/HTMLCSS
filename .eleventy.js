@@ -31,6 +31,6 @@ module.exports = function (eleventyConfig) {
         templateFormats: ["html", "njk", "md"],
         passthroughFileCopy: true,
         templateEngineOverride: "njk",
-        alwaysWrapLineHighlights: true
+        alwaysWrapLineHighlights: false
     };
 };

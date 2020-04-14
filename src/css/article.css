@@ -113,5 +113,5 @@ article > blockquote {
   padding-left: 10px;
 }
 pre{
-  grid-column: 2 / span 4;
+  grid-column: 2 / span 5;
 }

@@ -1,8 +1,9 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-
+const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
+    eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
     eleventyConfig.addPassthroughCopy('src/css');
     eleventyConfig.addPassthroughCopy('src/img');
@@ -29,6 +30,7 @@ module.exports = function (eleventyConfig) {
         dataTemplateEngine: "njk",
         templateFormats: ["html", "njk", "md"],
         passthroughFileCopy: true,
-        templateEngineOverride: "njk"
+        templateEngineOverride: "njk",
+        alwaysWrapLineHighlights: true
     };
 };

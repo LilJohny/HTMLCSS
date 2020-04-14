@@ -21,16 +21,16 @@
   border: 1px solid white;
   margin-right: 3%;
 }
-.right-side-box > h2{
+.right-side-box > h2 {
   text-align: center;
 }
-.right-side-box > ul{
+.right-side-box > ul {
   text-align: center;
 }
-.left-side-box > h2{
+.left-side-box > h2 {
   text-align: center;
 }
-.left-side-box > .img-list{
+.left-side-box > .img-list {
   text-align: center;
   align-self: center;
 }
@@ -41,7 +41,7 @@
 }
 .plain-text {
   font-size: 20px;
-  color: #ddd
+  color: #ddd;
 }
 .side-box-header {
   margin-top: 0px;
@@ -74,4 +74,3 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-

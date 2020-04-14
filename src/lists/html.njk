@@ -3,12 +3,12 @@ base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 name: HTML
 eleventyNavigation:
-    parent: Home
-    key: html_list
+  parent: Home
+  key: html_list
 ---
 {% extends "layouts/list.njk" %}
 {% block list %}
 {% for article in collections.html %}
   <li><a class="box-link" href="{{ article.url }}">{{ article.data.title }}</a></li>
-  {% endfor %}
+{% endfor %}
 {% endblock %}

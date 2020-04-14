@@ -13,12 +13,14 @@ tags: html
 # HTML Elements
 
 An HTML element usually consists of a start tag and an end tag, with the content inserted in between:
-
-`<tagname>Content goes here...</tagname>`
+{% highlight html %}
+<tagname>Content goes here...</tagname>
+{% endhighlight %}
 
 The HTML element is everything from the start tag to the end tag:
-
-`<p>My first paragraph.</p>`
+{% highlight html %}
+<p>My first paragraph.</p>
+{% endhighlight %}
 
 HTML elements with no content are called empty elements. Empty elements do not have an end tag, such as the `<br>` element(which indicates a line break).
 

@@ -6,8 +6,8 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
-title: HTML paragraphs
+tags: html start
+title: HTML Paragraphs
 ---
 
 # HTML Paragraphs

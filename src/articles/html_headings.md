@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
-title: HTML headings
+title: HTML Headings
 eleventyNavigation:
   key: html_headings
   parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: html start
 ---
 # HTML Headings
 ## Headings

@@ -1,6 +1,6 @@
 ---
 layout: layouts/article.njk
-title: HTML attributes
+title: HTML Attributes
 eleventyNavigation:
     key: html_attributes
     parent: Home

@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
-title: HTML formatting
+title: HTML Formatting
 eleventyNavigation:
     key: html_formatting
     parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: html start
 ---
 
 # HTML Text Formatting

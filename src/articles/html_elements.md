@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
-title: HTML elements
+title: HTML Elements
 eleventyNavigation:
     key: html_elements
     parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: html start
 ---
 
 # HTML Elements

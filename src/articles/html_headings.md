@@ -7,10 +7,10 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html start
+tags: html
 ---
 # HTML Headings
-## Headings
+## Headings example
 # Heading 1
 ## Heading 2
 ### Heading 3

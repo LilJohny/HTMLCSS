@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: CSS syntax
 eleventyNavigation:
-    key: html_forms_input_types
+    key: css_selectors
     parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg

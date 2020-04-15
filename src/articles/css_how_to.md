@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: CSS HOW TO
 eleventyNavigation:
-    key: html_how_to
+    key: css_how_to
     parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg

@@ -15,6 +15,26 @@ article > h2 {
   grid-column: 3 / span 3;
   text-align: center;
 }
+article > h3 {
+  font-family: "Lucida Grande";
+  grid-column: 3 / span 3;
+  text-align: center;
+}
+article > h4 {
+  font-family: "Lucida Grande";
+  grid-column: 3 / span 3;
+  text-align: center;
+}
+article > h5 {
+  font-family: "Lucida Grande";
+  grid-column: 3 / span 3;
+  text-align: center;
+}
+article > h6 {
+  font-family: "Lucida Grande";
+  grid-column: 3 / span 3;
+  text-align: center;
+}
 article > p {
   --x-height-multiplier: 0.375;
   --baseline-multiplier: 0.17;

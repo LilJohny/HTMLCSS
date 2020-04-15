@@ -1,6 +1,6 @@
 ---
 layout: layouts/article.njk
-title: HTML Forms input attributes
+title: HTML Input Attributes
 eleventyNavigation:
     key: html_forms_input_attributes
     parent: Home

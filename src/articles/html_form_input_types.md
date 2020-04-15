@@ -42,7 +42,7 @@ Here are the different input types you can use in HTML:
 `<input type="text">` defines a single-line text input field:
 
 ## Example
-```
+```html
 <form>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
@@ -160,7 +160,7 @@ The `<input type="color">` is used for input fields that should contain a color.
 Depending on browser support, a color picker can show up in the input field.
 
 ## Example
-```hml
+```html
 <form>
   <label for="favcolor">Select your favorite color:</label>
   <input type="color" id="favcolor" name="favcolor">

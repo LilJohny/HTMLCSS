@@ -13,8 +13,7 @@ tags: html
 ## The value Attribute
 The input value attribute specifies an initial value for an input field:
 
-##
-Input fields with initial (default) values:
+## Input fields with initial (default) values:
 
 ```html
 <form>

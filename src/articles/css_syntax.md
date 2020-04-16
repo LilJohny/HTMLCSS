@@ -1,6 +1,6 @@
 ---
 layout: layouts/article.njk
-title: CSS syntax
+title: CSS Syntax
 eleventyNavigation:
     key: css_syntax
     parent: Home

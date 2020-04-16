@@ -7,7 +7,8 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: css
+tags: ['css','start']
+date: 2020-02-03
 ---
 ## How To Add CSS
 When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.

@@ -6,8 +6,9 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: ['html','start']
 title: HTML Blocks
+date: 2020-01-27
 ---
 # HTML Block and Inline Elements
 Every HTML element has a default display value depending on what type of element it is.

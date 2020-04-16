@@ -6,8 +6,9 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: ['html','start']
 title: HTML Links
+date: 2020-01-23
 ---
 # HTML Links
 Links are found in nearly all web pages. Links allow users to click their way from page to page.

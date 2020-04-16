@@ -6,8 +6,9 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: ['html','start']
 title: HTML Lists
+date: 2020-01-26
 ---
 # HTML Lists
 ## HTML List Example

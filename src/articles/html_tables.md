@@ -6,8 +6,9 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: ['html','start']
 title: HTML Tables
+date: 2020-01-25
 ---
 # HTML Tables
 

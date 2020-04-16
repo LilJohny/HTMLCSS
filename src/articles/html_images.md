@@ -6,8 +6,9 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: ['html','start']
 title: HTML Images
+date: 2020-01-24
 ---
 # HTML Images
 Images can improve the design and the appearance of a web page.

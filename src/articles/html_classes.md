@@ -6,8 +6,9 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: ['html','start']
 title: HTML Classes
+date: 2020-01-29
 ---
 # HTML The class Attribute
 ## Using The class Attribute

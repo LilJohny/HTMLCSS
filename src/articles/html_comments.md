@@ -6,8 +6,9 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: html
+tags: ['html','start']
 title: HTML Comments
+date: 2020-01-22
 ---
 # HTML Comments
 Comment tags are used to insert comments in the HTML source code.

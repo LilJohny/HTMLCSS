@@ -7,7 +7,8 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: css
+tags: ['css','start']
+date: 2020-02-11
 ---
 # CSS Layout - display: inline-block
 ## The display: inline-block Value

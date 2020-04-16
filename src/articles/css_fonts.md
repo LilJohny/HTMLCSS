@@ -7,8 +7,8 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: 
-  - css
+tags: ['css','start']
+date: 2020-02-06
 ---
 # CSS Fonts
 The CSS font properties define the font family, boldness, size, and the style of a text.

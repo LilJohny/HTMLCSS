@@ -7,9 +7,8 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: 
-  - html
-  - start
+tags: ['html','start']
+date: 2019-04-17
 ---
 
 # HTML Attributes

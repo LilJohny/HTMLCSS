@@ -2,13 +2,13 @@
 layout: layouts/article.njk
 title: HTML Elements
 eleventyNavigation:
-    key: html_elements
-    parent: Home
+  key: html_elements
+  parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: ['html', 'start']
-date: 2019-04-16
+tags: ["html", "start"]
+date: 2020-01-16
 ---
 
 # HTML Elements
@@ -20,6 +20,7 @@ An HTML element usually consists of a start tag and an end tag, with the content
 
 The HTML element is everything from the start tag to the end tag:
 {% highlight html %}
+
 <p>My first paragraph.</p>
 {% endhighlight %}
 

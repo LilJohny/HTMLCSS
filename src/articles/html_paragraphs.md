@@ -6,9 +6,9 @@ eleventyNavigation:
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: [ 'html', 'start' ]
+tags: ["html", "start"]
 title: HTML Paragraphs
-date: 2019-04-18
+date: 2020-01-18
 ---
 
 # HTML Paragraphs

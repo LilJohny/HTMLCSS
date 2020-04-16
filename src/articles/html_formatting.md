@@ -2,13 +2,13 @@
 layout: layouts/article.njk
 title: HTML Formatting
 eleventyNavigation:
-    key: html_formatting
-    parent: Home
+  key: html_formatting
+  parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: ['html', 'start']
-date: 2019-04-20
+tags: ["html", "start"]
+date: 2020-01-20
 ---
 
 # HTML Text Formatting

@@ -2,13 +2,13 @@
 layout: layouts/article.njk
 title: HTML Styles
 eleventyNavigation:
-    key: html_styles
-    parent: Home
+  key: html_styles
+  parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: ['html','start']
-date: 2019-04-19
+tags: ["html", "start"]
+date: 2020-01-19
 ---
 
 # HTML Styles

@@ -2,13 +2,13 @@
 layout: layouts/article.njk
 title: HTML Attributes
 eleventyNavigation:
-    key: html_attributes
-    parent: Home
+  key: html_attributes
+  parent: Home
 base_styles_path: ../../css/base.css
 background_path: ../../img/background.jpg
 css_path_prefix: ../..
-tags: ['html','start']
-date: 2019-04-17
+tags: ["html", "start"]
+date: 2020-01-17
 ---
 
 # HTML Attributes
@@ -31,7 +31,6 @@ HTML links are defined with the `<a>` tag. The link address is specified in the 
 {% highlight html %}
 <a href="https://www.w3schools.com">This is a link</a>
 {% endhighlight %}
-
 
 You will learn more about links and the `<a>` tag later in this tutorial.
 
@@ -90,6 +89,7 @@ The style attribute is used to specify the styling of an element, like color, fo
 ## Example
 
 {% highlight html %}
+
 <p style="color:red">This is a red paragraph.</p>
 {% endhighlight %}
 
@@ -104,6 +104,7 @@ The language is declared with the lang attribute.
 Declaring a language is important for accessibility applications (screen readers) and search engines:
 
 {% highlight html %}
+
 <!DOCTYPE html>
 <html lang="en-US">
 <body>
@@ -123,6 +124,7 @@ Here, a title attribute is added to the `<p>` element. The value of the title at
 ## Example
 
 {% highlight html %}
+
 <p title="I'm a tooltip">
 This is a paragraph.
 </p>
@@ -163,6 +165,7 @@ Sometimes it is <strong>necessary</strong> to use quotes. This example will not 
 ## Example
 
 {% highlight html %}
+
 <p title=About W3Schools>
 {% endhighlight %}
 
@@ -176,12 +179,14 @@ Double quotes around attribute values are the most common in HTML, but single qu
 In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
 
 {% highlight html %}
+
 <p title='John "ShotGun" Nelson'>
 {% endhighlight %}
 
 Or vice versa:
 
 {% highlight html %}
+
 <p title="John 'ShotGun' Nelson">
 {% endhighlight %}
 

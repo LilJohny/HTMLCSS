@@ -138,7 +138,7 @@ The title attribute can be written with uppercase or lowercase like title or TIT
 
 W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
 
-At W3Schools we always use lowercase attribute names.
+We recommend you to always use lowercase attribute names.
 
 # We Suggest: Quote Attribute Values
 
@@ -170,7 +170,7 @@ Sometimes it is <strong>necessary</strong> to use quotes. This example will not 
 {% endhighlight %}
 
 Using quotes are the most common. Omitting quotes can produce errors.
-At W3Schools we <strong>always</strong> use quotes around attribute values.
+We reccomend you to <strong>always</strong> use quotes around attribute values.
 
 # Single or Double Quotes?
 
@@ -197,8 +197,8 @@ Or vice versa:
 - The href attribute provides address information for links
 - The width and height attributes provide size information for images
 - The alt attribute provides text for screen readers
-- At W3Schools we always use lowercase attribute names
-- At W3Schools we always quote attribute values
+- We recommend you to always use lowercase attribute names
+- We recommend you to always quote attribute values
 
 # HTML Attributes
 

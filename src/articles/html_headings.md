@@ -116,7 +116,6 @@ Right-click on an element (or a blank area), and choose "Inspect" or "Inspect El
 
 # HTML Tag Reference
 
-W3Schools' tag reference contains additional information about these tags and their attributes.
 
 You will learn more about HTML tags and attributes in the next chapters of this tutorial.
 

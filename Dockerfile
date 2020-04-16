@@ -1,12 +1,12 @@
 FROM node:alpine
 WORKDIR /usr/src
 RUN npm install -g @11ty/eleventy
-ADD css ./css
-ADD html ./html
-ADD img ./img
+ADD src/ ./src
 COPY .eleventy.js .
 COPY package.json .
+COPY package-lock.json .
 RUN npm install -g nunjucks
-RUN npx @11ty/eleventy
+RUN npm install
+RUN npx eleventy
 CMD npx eleventy --serve --port=$PORT
 EXPOSE $PORT

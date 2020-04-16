@@ -1,0 +1,68 @@
+---
+base_styles_path: css/base.css
+background_path: img/background.jpg
+eleventyNavigation:
+key: Home
+---
+{% extends "layouts/base.njk" %}
+{% block head %}
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap" rel="stylesheet">
+<link href="css/box.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+{% endblock %}
+{% block content %}
+<div class="box left-side-box">
+  <h2 class="side-box-header">Good Start:</h2>
+  <div class="img-list">
+    <ul>
+      <li><a class="plain-text" href="/articles/html_elements/">HTML Elements</a></li>
+      <li><a class="plain-text" href="/articles/html_attributes/">HTML Attributes</a></li>
+      <li><a class="plain-text" href="/articles/html_headings/">HTML Headings </a></li>
+      <li><a class="plain-text" href="/articles/html_paragraphs/">HTML Paragraphs</a></li>
+      <li><a class="plain-text" href="/articles/styles/">HTML<br> Styles</a></li>
+      <li><a class="plain-text" href="/articles/html_formatting/">HTML Formatting</a></li>
+    </ul>
+  </div>
+  <a class="plain-text box-link" href="/lists/start">Show full list</a>
+</div>
+<div class="box right-side-box">
+  <h2 class="side-box-header right-side-box-header">☕EDPRESSO☕</h2>
+  <h1>What are<br> CSS selectors?</h1>
+  <p class="plain-text">In CSS, selectors are used to select the element(s) you want to style.</p>
+</div>
+<div class="box">
+  <h1>👋Hi user!👋</h1>
+  <p class="introduction-text">
+    This site can be used both by beginners in order to remember some basic things and by experienced developers
+    if they need detailed information about a particular HTML tag or CSS property. Also, developers who have
+    learned HTML and CSS can find out the direction for further development. In essence, such developers should
+    definitely familiarize themselves with CSS frameworks, as well as many existing HTML and CSS template
+    engines.</p>
+  <p class="introduction-text">On the site you can find:</p>
+  <ul>
+    <li>
+      <p class="introduction-text">HTML block, where you can find structured information about
+        HTML tags</p>
+    </li>
+    <li>
+      <p class="introduction-text">CSS block, where you can find structured information about
+        CSS tags</p>
+    </li>
+    <li>
+      <p class="introduction-text">Next steps block, where ypu can find list of technologies,
+        every front-end developer should be
+        familiar with</p>
+    </li>
+    <li>
+      <p class="introduction-text">We also have a Good Start block, that contains articles
+        that will be useful to a novice
+        developer.</p>
+    </li>
+    <li>
+      <p class="introduction-text">Also we have EDPRESSO - this is block where you get
+        interesting fact related to selected block
+      </p>
+    </li>
+  </ul>
+</div>
+{% endblock %}

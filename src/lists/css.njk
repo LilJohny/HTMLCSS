@@ -1,0 +1,14 @@
+---
+base_styles_path: ../../css/base.css
+background_path: ../../img/background.jpg
+name: CSS
+eleventyNavigation:
+  parent: Home
+  key: css_list
+---
+{% extends "layouts/list.njk" %}
+{% block list %}
+{% for article in collections.css %}
+  <li><a class="box-link" href="{{ article.url }}">{{ article.data.title }}</a></li>
+{% endfor %}
+{% endblock %}

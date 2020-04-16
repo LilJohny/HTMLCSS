@@ -1,0 +1,17 @@
+---
+base_styles_path: ../css/base.css
+background_path: ../img/background.jpg
+---
+{% extends "layouts/base.njk" %}
+{% block head %}
+    <link rel="stylesheet" href="../../css/article.css">
+    <link rel="stylesheet" href="../../css/box.css">
+    <link rel="stylesheet" href="../../css/list.css">
+{% endblock %}
+{% block content %}
+<div  class="box list-box">
+    <h1>{{ name }} articles list</h1>
+    {% block list %}
+    {% endblock %}
+</div>
+{% endblock %}

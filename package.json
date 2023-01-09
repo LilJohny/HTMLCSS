@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/LilJohny/HTMLCSS#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "nunjucks": "^3.2.1"
   },
